@@ -89,7 +89,16 @@ button.primary:hover { filter: brightness(1.08); }
 button.chip { padding: 10px 12px; }
 #start { width: 100%; margin-top: 24px; }
 
-.quiz-top { display: flex; justify-content: space-between; font-size: .9rem; }
+.quiz-top { display: flex; justify-content: space-between; align-items: center; font-size: .9rem; }
+.tally { display: flex; gap: 8px; }
+.tally > span { padding: 2px 10px; border-radius: 999px; font-weight: 600; }
+.tally-ok { background: var(--good-soft); color: var(--good); }
+.tally-bad { background: var(--bad-soft); color: var(--bad); }
+.mode-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.mode-row .check { margin: 0; align-items: flex-start; }
+.mode-row small { margin: 0; }
+button.link { display: block; margin: 12px auto 0; border: 0; background: none; color: var(--muted); font-size: .9rem; text-decoration: underline; }
+button.link:hover { color: var(--text); }
 .bar { height: 6px; background: var(--line); border-radius: 3px; margin: 8px 0 16px; overflow: hidden; }
 #bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .25s; }
 .source { font-size: .8rem; color: var(--muted); margin: 0; }

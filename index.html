@@ -28,7 +28,15 @@
         <div id="handouts"></div>
       </fieldset>
 
-      <label class="field">
+      <fieldset class="field">
+        <legend>Mode</legend>
+        <div class="mode-row">
+          <label class="check"><input type="radio" name="mode" value="normal" checked><span>Normal<br><small>Set number of questions</small></span></label>
+          <label class="check"><input type="radio" name="mode" value="endless"><span>Endless<br><small>Keeps going until you stop</small></span></label>
+        </div>
+      </fieldset>
+
+      <label class="field" id="count-field">
         <span>Number of questions <small id="available" class="muted"></small></span>
         <div class="count-row">
           <input type="number" id="count" min="1" value="10">
@@ -46,7 +54,10 @@
     <section id="quiz" class="screen" hidden>
       <div class="quiz-top">
         <span id="progress" class="muted"></span>
-        <span id="score-live" class="muted"></span>
+        <span class="tally">
+          <span class="tally-ok" title="Correct">✓ <b id="count-ok">0</b></span>
+          <span class="tally-bad" title="Wrong">✗ <b id="count-bad">0</b></span>
+        </span>
       </div>
       <div class="bar"><div id="bar-fill"></div></div>
       <p id="q-source" class="source"></p>
@@ -54,6 +65,7 @@
       <div id="choices"></div>
       <div id="feedback" hidden></div>
       <button id="next" class="primary" hidden>Next</button>
+      <button id="end" class="link">End quiz</button>
     </section>
 
     <!-- Results screen -->
