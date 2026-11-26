@@ -265,5 +265,257 @@ registerBank("itsm-05", [
     choices: ["US$455 billion", "US$629 billion", "US$1,771 billion", "US$3 billion"],
     answer: 2,
     explanation: "The global market is expected to reach about US$1,771 billion in 2028."
+  },
+  {
+    question: "The IT Services market covers a range of services utilized by organizations to:",
+    choices: [
+      "Create, manage, and deliver information",
+      "Manufacture computer hardware",
+      "Regulate internet service providers",
+      "Sell consumer electronics"
+    ],
+    answer: 0,
+    explanation: "The IT Services market covers services organizations use to create, manage, and deliver information."
+  },
+  {
+    question: "Accenture's intelligent operating models help companies respond to market demands with an operating model built for:",
+    choices: [
+      "Agility, resiliency, and growth",
+      "Cost-cutting, downsizing, and automation",
+      "Speed, security, and simplicity",
+      "Compliance, auditing, and reporting"
+    ],
+    answer: 0,
+    explanation: "Accenture designs operating models built for agility, resiliency, and growth."
+  },
+  {
+    question: "What is the goal of Accenture's cloud strategy and design service?",
+    choices: [
+      "To replace all on-premise servers",
+      "To maximize a company's cloud investment and its benefits",
+      "To reduce a company's number of employees",
+      "To outsource call center operations"
+    ],
+    answer: 1,
+    explanation: "Accenture's cloud strategy and design aims to maximize a company's cloud investment and its benefits."
+  },
+  {
+    question: "Which of the following is NOT listed as an IT Consulting and Implementation company in the Philippines?",
+    choices: ["Emerio Philippines, Inc.", "Global BrainForce", "Genie Technologies, Inc.", "Yondu"],
+    answer: 3,
+    explanation: "Yondu is listed under IT Outsourcing, not IT Consulting and Implementation."
+  },
+  {
+    question: "Which of the following is listed as a BPO company in the Philippines?",
+    choices: ["Microsourcing", "I-Asiatic Innovations", "Genpact", "Global BrainForce"],
+    answer: 2,
+    explanation: "Genpact is a BPO company. Microsourcing is ITO; I-Asiatic and Global BrainForce are IT Consulting."
+  },
+  {
+    question: "Revenue in the BPO market in the Philippines is projected to reach up to how much in 2023?",
+    choices: ["$106.6 million", "$596.2 million", "$0.62 billion", "$29 billion"],
+    answer: 2,
+    explanation: "The BPO market was projected at up to $0.62 billion in 2023. ($29 billion was IBPAP's 2021 estimate.)"
+  },
+  {
+    question: "What does IBPAP stand for?",
+    choices: [
+      "IT and Business Process Association of the Philippines",
+      "International Business Processing Alliance of the Philippines",
+      "Information and Business Policy Agency of the Philippines",
+      "IT-BPO Professionals Association of the Philippines"
+    ],
+    answer: 0,
+    explanation: "IBPAP is the IT and Business Process Association of the Philippines."
+  },
+  {
+    question: "According to the handout, Google outsources which employees to the Philippines?",
+    choices: [
+      "Only call center agents",
+      "IT experts to analytical consultants",
+      "Content moderators only",
+      "Hardware technicians"
+    ],
+    answer: 1,
+    explanation: "Google outsources employees to the Philippines, from IT experts to analytical consultants."
+  },
+  {
+    question: "Which of these is given as an example of an IT service commonly offered on social media in the Philippines?",
+    choices: [
+      "Cloud strategy and design",
+      "Screen and battery repairs",
+      "Network infrastructure maintenance",
+      "Content moderation"
+    ],
+    answer: 1,
+    explanation: "Social media IT services include screen and battery repairs, hard drive and memory restoration, and basic login/credential resets."
+  },
+  {
+    question: "Why is offering IT services on social media described as an easier way to reach customers than mall stalls?",
+    choices: [
+      "Mall stalls are not allowed to offer repairs",
+      "Mall stall providers often call the attention of passersby whether or not they intend to avail a service",
+      "Social media services are always free",
+      "Mall stalls only offer IT training"
+    ],
+    answer: 1,
+    explanation: "Mall stall providers often call out to passersby regardless of whether they intended to avail a service."
+  },
+  {
+    question: "CNCTC, Inc. offers IT training for certifications in all of the following EXCEPT:",
+    choices: ["RedHat", "TESDA", "Amazon AWS", "Oracle"],
+    answer: 3,
+    explanation: "CNCTC offers training for RedHat, Microsoft, TESDA, Azure, and Amazon AWS. Oracle is not listed."
+  },
+  {
+    question: "Revenue in the Other IT Services market in the Philippines is projected to reach up to how much in 2023?",
+    choices: ["$106.6 million", "$596.2 million", "$0.62 billion", "$2 billion"],
+    answer: 2,
+    explanation: "Other IT Services was projected at up to $0.62 billion in 2023."
+  },
+  {
+    question: "Companies around the world are implementing IT services due to automation and huge changes in client demand, including:",
+    choices: [
+      "Tailored pricing and improved customer experience",
+      "Lower taxes and fewer regulations",
+      "Larger office spaces",
+      "More physical retail stores"
+    ],
+    answer: 0,
+    explanation: "Client demand shifts include tailored pricing and improved customer experience; automation eliminates monotonous tasks."
+  },
+  {
+    question: "In the United States, which IT service market comes in SECOND with $134.30 billion?",
+    choices: ["BPO", "IT Outsourcing", "Other IT Services", "IT Consulting and Implementation"],
+    answer: 2,
+    explanation: "US: ITO $168B, Other IT Services $134.30B, BPO $127.90B, IT Consulting $24.5B."
+  },
+  {
+    question: "What is the projected BPO revenue in the United States for 2023?",
+    choices: ["$24.5 billion", "$127.90 billion", "$134.30 billion", "$168 billion"],
+    answer: 1,
+    explanation: "US BPO was projected at $127.90 billion."
+  },
+  {
+    question: "The United States is expected to have what market volume by 2028?",
+    choices: ["$455 billion", "$529 billion", "$629 billion", "$1,771 billion"],
+    answer: 2,
+    explanation: "The US is expected to reach $629 billion by 2028 at a 6.70% annual growth rate."
+  },
+  {
+    question: "What is the expected annual growth rate of the United States IT services market?",
+    choices: ["4.93%", "6.26%", "6.70%", "8.58%"],
+    answer: 2,
+    explanation: "The US growth rate is 6.70%."
+  },
+  {
+    question: "What is the projected IT Outsourcing market volume in the United Kingdom in 2023?",
+    choices: ["$25 billion", "$26 billion", "$32 billion", "$33 billion"],
+    answer: 2,
+    explanation: "UK ITO: $32 billion. (Japan $33B, China $26B, Germany $25B.)"
+  },
+  {
+    question: "The United Kingdom is expected to reach what market volume by 2028, at a 6.26% annual growth rate?",
+    choices: ["$85 billion", "$106 billion", "$110 billion", "$117 billion"],
+    answer: 3,
+    explanation: "The UK is expected to reach $117 billion by 2028."
+  },
+  {
+    question: "In the United Kingdom, which IT service market comes LAST with $4.7 billion projected revenue?",
+    choices: ["IT Consulting", "BPO", "Other IT Services", "IT Outsourcing"],
+    answer: 0,
+    explanation: "UK IT Consulting was projected at $4.7 billion, the lowest."
+  },
+  {
+    question: "Which country has the LOWEST expected annual growth rate among the five key players?",
+    choices: ["Japan", "United Kingdom", "Germany", "United States"],
+    answer: 0,
+    explanation: "Japan's 4.93% is the lowest growth rate of the five."
+  },
+  {
+    question: "What is the projected IT Outsourcing market volume in Japan in 2023?",
+    choices: ["$25 billion", "$32 billion", "$33 billion", "$45 billion"],
+    answer: 2,
+    explanation: "IT Outsourcing dominates Japan at $33 billion."
+  },
+  {
+    question: "Japan is expected to have what market volume by 2028?",
+    choices: ["$83 billion", "$106 billion", "$110 billion", "$117 billion"],
+    answer: 1,
+    explanation: "Japan is expected to reach $106 billion by 2028 at 4.93% annual growth."
+  },
+  {
+    question: "China is projected to have how much IT services revenue in 2023?",
+    choices: ["$61 billion", "$73 billion", "$83 billion", "$86 billion"],
+    answer: 1,
+    explanation: "China (4th place) was projected at $73 billion in 2023, reaching $110 billion by 2028."
+  },
+  {
+    question: "Among the five key countries, which is the exception where Other IT Services is NOT the second-largest market?",
+    choices: ["United States", "Japan", "China", "Germany"],
+    answer: 2,
+    explanation: "In China, BPO ($23.13B) is second, ahead of Other IT Services ($19.75B)."
+  },
+  {
+    question: "What is Germany's dominant IT service market and its projected volume in 2023?",
+    choices: [
+      "BPO at $14.48 billion",
+      "IT Outsourcing at $25 billion",
+      "Other IT Services at $18.17 billion",
+      "IT Consulting at $3.5 billion"
+    ],
+    answer: 1,
+    explanation: "IT Outsourcing dominates Germany at $25 billion (per the handout's text)."
+  },
+  {
+    question: "Germany is expected to reach what market volume by 2028?",
+    choices: ["$61 billion", "$73 billion", "$85 billion", "$106 billion"],
+    answer: 2,
+    explanation: "Germany is expected to reach $85 billion by 2028 at 6.80% annual growth."
+  },
+  {
+    question: "The Statista figures are based on enterprises' technology spending on:",
+    choices: [
+      "Products, consulting, and outsourcing services",
+      "Salaries and employee benefits",
+      "Office rentals and utilities",
+      "Advertising and marketing"
+    ],
+    answer: 0,
+    explanation: "The figures are based on enterprises' technology spending on products, consulting, and outsourcing services."
+  },
+  {
+    question: "The Statista market data is patterned using:",
+    choices: ["Fixed 2020 exchange rates", "Current exchange rates", "The Philippine peso only", "Average 10-year exchange rates"],
+    answer: 1,
+    explanation: "The data is patterned using current exchange rates."
+  },
+  {
+    question: "Which events are considered at a country-specific level in the Statista data?",
+    choices: [
+      "The 2008 financial crisis and Brexit",
+      "The COVID-19 pandemic and the Russia-Ukraine war",
+      "The dot-com bubble and Y2K",
+      "Typhoons and earthquakes"
+    ],
+    answer: 1,
+    explanation: "The impact of COVID-19 (since 2020) and the ongoing Russia-Ukraine war are considered per country."
+  },
+  {
+    question: "Since what year has the demand for IT services been steadily increasing, according to the handout?",
+    choices: ["2019", "2020", "2021", "2023"],
+    answer: 2,
+    explanation: "Demand has been steadily increasing since 2021, ensuring business continuity and resilience."
+  },
+  {
+    question: "Which is NOT mentioned as a driver for the global IT Services market reaching about US$1,771 billion in 2028?",
+    choices: [
+      "Digital transformation",
+      "Increasing demand for cloud services",
+      "Infrastructure upgrading",
+      "Lower hardware prices"
+    ],
+    answer: 3,
+    explanation: "Drivers listed: digital transformation, automated business processes, cloud demand, and infrastructure upgrading."
   }
 ]);

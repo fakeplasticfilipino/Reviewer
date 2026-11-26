@@ -347,5 +347,313 @@ registerBank("itsm-06", [
     ],
     answer: 1,
     explanation: "They compare what is happening with what *should* be happening, which needs a clear idea of how service should be delivered."
+  },
+  {
+    question: "According to the handout, implementing ITSM changes in an organization takes more than just:",
+    choices: [
+      "Hiring a new Service Manager",
+      "Changing the paperwork, reporting methods, and the way a system is configured",
+      "Buying new hardware",
+      "Following an ITIL inspection checklist"
+    ],
+    answer: 1,
+    explanation: "ITSM changes take more than changing paperwork, reporting methods, and system configuration; every operation requires different roles."
+  },
+  {
+    question: "Service Managers from outside the IT department can be useful as long as they have:",
+    choices: [
+      "An ITIL certification",
+      "The necessary technical literacy and working knowledge of the organization's IT capabilities",
+      "At least ten years of management experience",
+      "A background in accounting"
+    ],
+    answer: 1,
+    explanation: "Outsiders work if they have technical literacy and working knowledge of the organization's IT capabilities."
+  },
+  {
+    question: "When ITIL is used as the ITSM framework, how Service Managers are used to oversee depends on:",
+    choices: [
+      "The size and ambition of the IT employees",
+      "The number of customers",
+      "The company's annual revenue",
+      "The number of external suppliers"
+    ],
+    answer: 0,
+    explanation: "It depends on the size and ambition of the IT employees."
+  },
+  {
+    question: "Why does a Service Manager answer the three basic questions about the customer's expectations?",
+    choices: [
+      "To prepare for an ITIL inspection",
+      "To at least understand their customer experience",
+      "To set employee salaries",
+      "To choose external suppliers"
+    ],
+    answer: 1,
+    explanation: "The three questions help the Service Manager at least understand the customer experience."
+  },
+  {
+    question: "The question 'How is the service used?' belongs to which set of Service Manager questions?",
+    choices: [
+      "Questions about the customer's expectations",
+      "Questions about the IT department's capability",
+      "Questions about the service culture",
+      "Questions about external suppliers"
+    ],
+    answer: 0,
+    explanation: "Customer expectations: expected service and delivery, how it is used, and how much it costs."
+  },
+  {
+    question: "The question 'How is the service supported?' belongs to which set of Service Manager questions?",
+    choices: [
+      "Questions about the customer's expectations",
+      "Questions about the IT department's capability",
+      "Questions about the Service Sponsor",
+      "Questions about prospects"
+    ],
+    answer: 1,
+    explanation: "IT capability: how the service is supported and how it is delivered."
+  },
+  {
+    question: "Under Change Management, Service Managers must have a clear assessment of:",
+    choices: [
+      "The risk associated with any given change",
+      "Each employee's salary",
+      "The company's brand score",
+      "Competitors' pricing"
+    ],
+    answer: 0,
+    explanation: "They must clearly assess the risk of any given change."
+  },
+  {
+    question: "Which is a Service Manager responsibility under Change Management?",
+    choices: [
+      "Communicating the important elements of the change to other relevant groups",
+      "Setting the budget for services",
+      "Using the IT services as a consumer",
+      "Providing infrastructure under contract"
+    ],
+    answer: 0,
+    explanation: "Change Management: blackout plan, risk assessment, and communicating the change to relevant groups. Budget-setting belongs to the Service Sponsor."
+  },
+  {
+    question: "Incident Management undergoes appropriate analysis of the incident and:",
+    choices: ["Escalation steps", "Salary adjustments", "Brand positioning", "Supplier contracts"],
+    answer: 0,
+    explanation: "Incident Management involves analysis of the incident and escalation steps."
+  },
+  {
+    question: "After a service is implemented, what is the Service Team's role?",
+    choices: [
+      "Hand it over to external suppliers",
+      "Ensure that the service remains effective",
+      "Disband the team",
+      "Set the budget for the next service"
+    ],
+    answer: 1,
+    explanation: "The Service Team ensures the service remains effective after implementation."
+  },
+  {
+    question: "The Service Team should be the first to suggest opportunities for service improvement based on:",
+    choices: ["Customer complaints only", "The tracking metrics they have", "Competitor reports", "The Service Sponsor's budget"],
+    answer: 1,
+    explanation: "They suggest improvements based on their tracking metrics."
+  },
+  {
+    question: "Since the Service Team is front-and-center in service design and delivery, they are expected to:",
+    choices: [
+      "Play a role in long-term planning and anticipating the evolution of technology and business",
+      "Handle all customer complaints directly",
+      "Replace the Service Manager when needed",
+      "Negotiate contracts with external suppliers"
+    ],
+    answer: 0,
+    explanation: "They are expected to help with long-term planning and anticipating how technology and business evolve."
+  },
+  {
+    question: "For the Service Manager and Service Team to work well together, what is described as a must?",
+    choices: [
+      "Separate offices",
+      "Regular meetings and consultations",
+      "Annual performance reviews only",
+      "An external auditor"
+    ],
+    answer: 1,
+    explanation: "Regular meetings and consultations are a must."
+  },
+  {
+    question: "The average monthly salaries for ITSM roles in the Philippines (2023) in the handout come from:",
+    choices: ["LinkedIn", "Jobstreet", "Indeed", "Statista"],
+    answer: 1,
+    explanation: "The salary table is from Jobstreet, as of 2023."
+  },
+  {
+    question: "What is the average monthly salary for Access Management?",
+    choices: ["P48,000", "P56,000", "P64,000", "P70,000"],
+    answer: 2,
+    explanation: "Access Management: P64,000."
+  },
+  {
+    question: "What is the average monthly salary for Knowledge Management?",
+    choices: ["P28,000", "P48,000", "P62,000", "P68,000"],
+    answer: 1,
+    explanation: "Knowledge Management: P48,000."
+  },
+  {
+    question: "What is the average monthly salary for Service Portfolio Management?",
+    choices: ["P62,000", "P70,000", "P82,000", "P88,000"],
+    answer: 2,
+    explanation: "Service Portfolio Management: P82,000."
+  },
+  {
+    question: "What is the average monthly salary for Supplier Management?",
+    choices: ["P56,000", "P64,000", "P68,000", "P90,000"],
+    answer: 2,
+    explanation: "Supplier Management: P68,000."
+  },
+  {
+    question: "Which two ITSM responsibilities share an average monthly salary of P90,000?",
+    choices: [
+      "Problem Management and Risk Management",
+      "Change Management and Incident Management",
+      "Risk Management and Compliance Manager",
+      "Problem Management and Service Portfolio Management"
+    ],
+    answer: 0,
+    explanation: "Problem Management and Risk Management are both P90,000."
+  },
+  {
+    question: "What is the average monthly salary for Service & Validation Testing?",
+    choices: ["P25,000", "P28,000", "P48,000", "P56,000"],
+    answer: 1,
+    explanation: "Service & Validation Testing: P28,000."
+  },
+  {
+    question: "What is the average monthly salary for a Compliance Manager?",
+    choices: ["P62,000", "P64,000", "P68,000", "P70,000"],
+    answer: 3,
+    explanation: "Compliance Manager: P70,000."
+  },
+  {
+    question: "What is the average monthly salary for Strategy Management?",
+    choices: ["P56,000", "P62,000", "P82,000", "P92,000"],
+    answer: 1,
+    explanation: "Strategy Management: P62,000."
+  },
+  {
+    question: "According to the handout, an organization's brand is only put to the test based on:",
+    choices: [
+      "How much it spends on advertising",
+      "How customers are treated and their overall experience",
+      "Its number of employees",
+      "Its stock price"
+    ],
+    answer: 1,
+    explanation: "A brand is tested by how customers are treated and their overall experience, from website to ordering to after-sales support."
+  },
+  {
+    question: "A strong service culture shares what is essential at each stage of the customer's experience. This ensures:",
+    choices: [
+      "Lower operating costs",
+      "The consistency of the message about what the service stands for",
+      "Faster delivery times",
+      "Higher employee salaries"
+    ],
+    answer: 1,
+    explanation: "It ensures a consistent message about what the service stands for, which helps establish the brand."
+  },
+  {
+    question: "Filipino shoppers chose Shopee as the brand best optimized for customer experience across:",
+    choices: [
+      "Its mobile app only",
+      "All its online and offline touchpoints",
+      "Its physical stores only",
+      "Its delivery partners only"
+    ],
+    answer: 1,
+    explanation: "Shopee was chosen as best optimized for customer experience across all its online and offline touchpoints."
+  },
+  {
+    question: "Which is the handout's example of an inconsistency between an imposed culture and reality?",
+    choices: [
+      "Enforcing a culture of doing the right thing for customers while the organization only focuses on meeting sales targets",
+      "Rotating the Service Manager position",
+      "Transitioning to a work-from-home setup",
+      "Recognizing excellent work from teams"
+    ],
+    answer: 0,
+    explanation: "Saying the culture is about doing right by customers while only chasing sales targets creates inconsistency."
+  },
+  {
+    question: "In the scam hub exposé, one Indonesian national shared that he originally applied for what kind of position seen on Facebook?",
+    choices: ["Call center agent", "Digital marketing", "Software developer", "Content moderator"],
+    answer: 1,
+    explanation: "He saw a digital marketing ad position on Facebook but was told to scam other Indonesians on arrival."
+  },
+  {
+    question: "Employees want to feel that what they do matters. According to the handout, this can be achieved by:",
+    choices: [
+      "Developing a service culture that recognizes excellent work from individuals and teams",
+      "Increasing working hours",
+      "Focusing only on sales targets",
+      "Outsourcing their tasks"
+    ],
+    answer: 0,
+    explanation: "A service culture that recognizes excellent work from individuals and teams makes employees feel their work matters."
+  },
+  {
+    question: "Besides keeping employees motivated, a strong service culture with a shared vision also helps:",
+    choices: [
+      "Retain the best employees and attract the best recruits",
+      "Reduce the number of customers",
+      "Avoid ITIL inspections",
+      "Eliminate the need for Service Managers"
+    ],
+    answer: 0,
+    explanation: "It helps retain the best employees and attract the best recruits."
+  },
+  {
+    question: "Lazada Philippines' Great Place to Work Certification was based on:",
+    choices: [
+      "Campaign's Southeast Asia Top 50 brands",
+      "Fortune's 100 Best Companies to Work For in 2023",
+      "Jobstreet's salary report",
+      "Statista's IT services outlook"
+    ],
+    answer: 1,
+    explanation: "It was based on Fortune's 100 Best Companies to Work For in 2023."
+  },
+  {
+    question: "Beyond parties and benefits, Lazada's certification was based on employees':",
+    choices: [
+      "Trust in their leaders, pride in their jobs, and happiness with their colleagues",
+      "High salaries and bonuses only",
+      "Number of years in the company",
+      "Sales performance"
+    ],
+    answer: 0,
+    explanation: "It was based on trust in leaders, pride in their jobs, and happiness with colleagues."
+  },
+  {
+    question: "Which technologies did IBM Philippines use to assist its transition to work-from-home in 2021?",
+    choices: [
+      "Cloud and artificial intelligence",
+      "Blockchain and cryptocurrency",
+      "Virtual reality and gaming",
+      "Robotics and drones"
+    ],
+    answer: 0,
+    explanation: "IBM PH used cloud and AI and upskilled employees at the same time."
+  },
+  {
+    question: "According to the handout's conclusion, a service culture is not just about how customers are treated; it also allows organizations to:",
+    choices: [
+      "Think of how service can be improved",
+      "Reduce employee salaries",
+      "Avoid customer feedback",
+      "Skip long-term planning"
+    ],
+    answer: 0,
+    explanation: "A service culture also lets organizations think of how service can be improved."
   }
 ]);
