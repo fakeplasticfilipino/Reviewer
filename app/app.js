@@ -65,7 +65,11 @@
     fillHandouts();
   }
   async function fillHandouts() {
-    const handouts = currentSubject().handouts;
+    const subject = currentSubject();
+    const notesLink = $("notes-link");
+    notesLink.hidden = !subject.notes;
+    if (subject.notes) notesLink.href = subject.notes;
+    const handouts = subject.handouts;
     handoutBox.innerHTML = handouts.map((h) => `
       <label class="check">
         <input type="checkbox" value="${h.id}" checked>

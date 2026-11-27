@@ -1,0 +1,61 @@
+/* Reviewer notes pages. Colors come from style.css (load it first). */
+body { margin: 0; }
+.notes {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px 16px 80px;
+}
+.notes header {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  align-items: flex-end; justify-content: space-between;
+  margin-bottom: 8px;
+}
+.notes header h1 { margin: 0; }
+.notes .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 4px; }
+.notes a { color: var(--accent); }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
+.toolbar a, .toolbar button { font-size: .9rem; padding: 8px 12px; text-decoration: none; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--text); }
+.toolbar button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+.toc a { font-size: .85rem; padding: 4px 10px; border-radius: 999px; background: var(--accent-soft); text-decoration: none; }
+
+.notes section {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin-top: 18px;
+}
+.notes h2 { margin: 0 0 4px; font-size: 1.3rem; }
+.notes h3 { margin: 22px 0 8px; font-size: 1.02rem; }
+.notes .lead { color: var(--muted); margin: 0 0 12px; font-size: .95rem; }
+.notes p, .notes li { line-height: 1.55; }
+
+.notes table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.notes th, .notes td { text-align: left; vertical-align: top; padding: 9px 10px; border-top: 1px solid var(--line); }
+.notes th { font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); border-top: 0; }
+.notes td:first-child { font-weight: 600; width: 32%; }
+.notes .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.notes .vs > div { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.notes .vs h4 { margin: 0 0 4px; font-size: .95rem; }
+.notes .vs p { margin: 0; font-size: .93rem; }
+.tag { display: inline-block; font-size: .75rem; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; margin-right: 4px; }
+.tip { background: var(--good-soft); border-radius: 10px; padding: 10px 14px; font-size: .93rem; margin-top: 12px; }
+.warn { background: var(--bad-soft); border-radius: 10px; padding: 10px 14px; font-size: .93rem; margin-top: 12px; }
+details summary { cursor: pointer; font-weight: 600; }
+
+/* Self-test: answers blur until clicked */
+body.hide-answers .a { filter: blur(7px); cursor: pointer; user-select: none; transition: filter .15s; }
+body.hide-answers .a.shown { filter: none; }
+
+@media (max-width: 600px) {
+  .notes .vs { grid-template-columns: 1fr; }
+  .notes td:first-child { width: 40%; }
+  .notes section { padding: 18px 16px; }
+}
+@media print {
+  .toolbar, .toc { display: none; }
+  .notes section { break-inside: avoid; border: 0; padding: 0; }
+  body.hide-answers .a { filter: none; }
+}

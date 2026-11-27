@@ -1,5 +1,6 @@
 // The catalog: every term, subject and handout the quiz knows about.
 // To add a handout: create its bank file under data/<term>/<subject>/ and add one entry below.
+// Optional per subject: `notes` points to a reviewer page, linked from the start screen.
 window.CATALOG = [
   {
     id: "pre-finals",
@@ -8,6 +9,7 @@ window.CATALOG = [
       {
         id: "it-service-management",
         name: "IT Service Management",
+        notes: "data/pre-finals/it-service-management/reviewer.html",
         handouts: [
           {
             id: "itsm-05",

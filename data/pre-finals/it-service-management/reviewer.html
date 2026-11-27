@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ITSM Reviewer · Pre-Finals</title>
+  <link rel="stylesheet" href="../../../app/style.css">
+  <link rel="stylesheet" href="../../../app/notes.css">
+</head>
+<body>
+<main class="notes">
+  <p class="crumbs">Pre-Finals · IT Service Management · Handouts 05 &amp; 06</p>
+  <header>
+    <h1>ITSM Reviewer</h1>
+    <div class="toolbar">
+      <button id="toggle" aria-pressed="false">Hide answers</button>
+      <a href="../../../index.html">← Back to quiz</a>
+    </div>
+  </header>
+  <p class="muted">Concepts first, no cash or year figures. Turn on <b>Hide answers</b> to test yourself: answers blur, and you click one to reveal it.</p>
+
+  <nav class="toc">
+    <a href="#definitions">1 · Definitions</a>
+    <a href="#classification">2 · Classification</a>
+    <a href="#roles">3 · Who does what</a>
+    <a href="#examples">4 · Examples → concepts</a>
+    <a href="#counts">Counts</a>
+    <a href="#numbers">Number patterns (optional)</a>
+  </nav>
+
+  <!-- 1. DEFINITIONS -->
+  <section id="definitions">
+    <h2>1 · Definitions</h2>
+    <p class="lead">The exam gives the description and asks for the term, or the other way around. Learn the key words.</p>
+    <table>
+      <tr><th>Term</th><th>Definition</th></tr>
+      <tr><td>IT Services market</td><td class="a">A range of services organizations use to <b>create, manage, and deliver information</b>, including services that assist other business functions.</td></tr>
+      <tr><td>Economy</td><td class="a">The structure of <b>production, distribution, and utilization</b> of goods and services. This includes IT services that keep IT infrastructure, applications, and systems efficiently implemented, operated, and optimized.</td></tr>
+      <tr><td>IT Consulting and Implementation</td><td class="a"><b>Advisory</b> services for businesses to evaluate their technology strategies and <b>align</b> them with their business strategies or internal processes.</td></tr>
+      <tr><td>Business Process Outsourcing (BPO)</td><td class="a">The transfer of the <b>entire business process</b> from a company to an IT-based third party.</td></tr>
+      <tr><td>IT Outsourcing (ITO)</td><td class="a">The <b>external contracting of IT functions, services, and projects</b> instead of relying on company-owned resources.</td></tr>
+      <tr><td>Other IT Services</td><td class="a">Everything not covered by the other three markets: <b>system integration, software installation and support, IT education and training</b>.</td></tr>
+      <tr><td>ITIL (Information Technology Infrastructure Library)</td><td class="a">An ITSM framework used to <b>provide guidance</b>, <i>not</i> to prepare an organization for an ITIL inspection.</td></tr>
+      <tr><td>Supported service</td><td class="a">The IT department's <b>resources are deployed</b> to meet the customer's demands.</td></tr>
+      <tr><td>Delivered service</td><td class="a">The IT department <b>produces a product or report</b> that fulfills the needs of a customer.</td></tr>
+      <tr><td>Change Management</td><td class="a">Under <b>Service Transition</b>. Implements new IT services while <b>lessening the disruption</b> to existing services.</td></tr>
+      <tr><td>Incident Management</td><td class="a">Under <b>Service Operation</b>. Analyzes incidents and escalation steps, and <b>restores services</b> when an interruption happens.</td></tr>
+      <tr><td>Blackout plan</td><td class="a">The plan a Service Manager keeps ready in case a change implementation begins to <b>compromise existing services</b>.</td></tr>
+      <tr><td>Culture (in an organization)</td><td class="a">The <b>practices, attitudes, behaviors, beliefs, and values</b> shared between its members.</td></tr>
+      <tr><td>Service culture</td><td class="a">The positive consideration of the importance of <b>understanding</b> good service and the appreciation for <b>giving</b> good service to <b>internal and external customers</b>.</td></tr>
+    </table>
+    <div class="tip"><b>BPO vs ITO trap:</b> BPO hands over a whole <i>business process</i> (customer service, HR). ITO contracts out <i>IT functions, services, and projects</i> (developers, network management).</div>
+  </section>
+
+  <!-- 2. CLASSIFICATION -->
+  <section id="classification">
+    <h2>2 · Classification: "which one does this belong to?"</h2>
+    <p class="lead">These are the pairs and groups the handouts sort things into.</p>
+
+    <h3>The 4 IT service markets in the Philippines</h3>
+    <table>
+      <tr><th>Market</th><th>Key words · companies</th></tr>
+      <tr><td>IT Consulting and Implementation</td><td class="a">advisory, strategy, align with business · <b>Accenture</b> (consulting side), Emerio, Global BrainForce, Genie Technologies, I-Asiatic Innovations, Tsukiden Global Solutions</td></tr>
+      <tr><td>Business Process Outsourcing</td><td class="a">entire business process, call centers, HR · Alorica, Concentrix, Genpact, IBM, Sutherland Global Services, Teleperformance</td></tr>
+      <tr><td>IT Outsourcing</td><td class="a">external contracting of IT functions; lets a company focus on its main functions and save on office space, maintenance, utilities · Microsourcing, Sourcefit, Yondu</td></tr>
+      <tr><td>Other IT Services</td><td class="a">system integration, software install and support, IT training, social media repair services · CNCTC, Inc.</td></tr>
+    </table>
+    <div class="warn"><b>IBM appears twice:</b> it's on the <b>BPO</b> company list, <i>and</i> it's a global giant that uses Philippine <b>ITO</b> (network management, infrastructure maintenance). Read the question carefully.</div>
+
+    <h3>BPO: front office vs back office</h3>
+    <div class="vs">
+      <div><h4>Front office</h4><p class="a">Customer-facing work, e.g. <b>customer service in call centers</b></p></div>
+      <div><h4>Back office</h4><p class="a">Internal work, e.g. <b>human resources</b></p></div>
+    </div>
+
+    <h3>Service Manager's questions: customer vs IT</h3>
+    <div class="vs">
+      <div><h4>Customer's expectations (3)</h4><p class="a">• What is the expected service, and how is it delivered?<br>• How is the service used?<br>• How much does the service cost?<br><small class="muted">Purpose: to at least understand the customer experience.</small></p></div>
+      <div><h4>IT department's capability (2)</h4><p class="a">• How is the service <b>supported</b>?<br>• How is the service <b>delivered</b>?</p></div>
+    </div>
+    <div class="tip"><b>Tip:</b> if the question mentions <i>cost</i> or <i>use</i>, it's a customer question. If it says <i>supported</i> or <i>delivered</i>, it's an IT capability question. ("How is it delivered" appears in both lists, but the IT one is only about delivery.)</div>
+
+    <h3>Supported vs delivered</h3>
+    <div class="vs">
+      <div><h4>Supported</h4><p class="a">Resources deployed to meet demand. Example: <b>Finisar</b>, where IT provided enough server space for the customer support team.</p></div>
+      <div><h4>Delivered</h4><p class="a">A product or report is produced that fulfills the customer's needs.</p></div>
+    </div>
+
+    <h3>Internal vs external customer (delivered products)</h3>
+    <div class="vs">
+      <div><h4>Internal customer</h4><p class="a">An essential <b>financial report</b> derived from several databases, built into <b>Oracle</b></p></div>
+      <div><h4>External customer</h4><p class="a">A customizable <b>web page design palette</b> that anyone can use</p></div>
+    </div>
+
+    <h3>Which ITSM process?</h3>
+    <div class="vs">
+      <div><h4>Service Transition</h4><p class="a"><b>Change Management</b>: blackout plan, risk assessment, communicating the change</p></div>
+      <div><h4>Service Operation</h4><p class="a"><b>Incident Management</b>: restore ASAP, isolate the cause, prevent recurrence</p></div>
+    </div>
+
+    <h3>The 3 external roles</h3>
+    <table>
+      <tr><th>Role</th><th>Who they are</th></tr>
+      <tr><td>IT Service Consumers</td><td class="a">All persons or organizational units who <b>use</b> the IT services</td></tr>
+      <tr><td>Prospects</td><td class="a"><b>Future</b> IT Service Consumers with a <b>defined demand</b> for IT services</td></tr>
+      <tr><td>External Suppliers</td><td class="a">Provide <b>infrastructure and operating supplies</b>, IT service contributions, and outsourcing services under <b>established contracts</b></td></tr>
+    </table>
+
+    <h3>The 4 influences of service culture</h3>
+    <table>
+      <tr><th>Influence on…</th><th>Main idea · example</th></tr>
+      <tr><td>1. How an organization is seen</td><td class="a">A brand is tested by how customers are treated across the whole experience (website → ordering → after-sales). A consistent message builds the brand. · <b>Shopee</b></td></tr>
+      <tr><td>2. Operation's effectiveness</td><td class="a">Culture reflects core values. Problems arise when culture doesn't align with vision and strategy, or the imposed culture differs from reality. · <b>Scam hubs exposé</b> (Sen. Risa Hontiveros)</td></tr>
+      <tr><td>3. How employees feel about their jobs</td><td class="a">Turns employees into <b>advocates</b>, not critics. Recognizing excellent work makes them feel it matters, and helps retain the best employees and attract the best recruits. · <b>Lazada</b></td></tr>
+      <tr><td>4. How the operation learns and adapts</td><td class="a">Compare what <i>is</i> happening with what <i>should</i> be happening, which needs a clear idea of how service should be delivered. · <b>IBM Philippines</b></td></tr>
+    </table>
+    <div class="tip"><b>Memory hook: "Seen · Effective · Feel · Adapt"</b> → the brand outside, the operations inside, the people, the future.</div>
+  </section>
+
+  <!-- 3. ROLES -->
+  <section id="roles">
+    <h2>3 · Who does what</h2>
+    <p class="lead">Each responsibility belongs to exactly one role. The exam will try to swap them.</p>
+    <table>
+      <tr><th>Role</th><th>Responsibilities</th></tr>
+      <tr><td>Service Manager<br><small class="muted">"the boss", executive role</small></td><td class="a">
+        • Leads a service team<br>
+        • Defines specific services and how they're delivered, in line with <b>business expectations</b><br>
+        • Decides how <b>ITIL guidance</b> is best integrated into the organization<br>
+        • Answers the 3 customer and 2 IT-capability questions<br>
+        • <b>Change Management:</b> keeps a blackout plan ready, assesses the risk of any change, communicates the change to relevant groups<br>
+        • <b>Incident Management:</b> restores the service ASAP, isolates the cause, prevents recurrence<br>
+        • Can come from <b>outside IT</b> if they have technical literacy and working knowledge of the organization's IT capabilities<br>
+        • The position can be <b>rotated</b> to keep new ideas flowing</td></tr>
+      <tr><td>Service Team<br><small class="muted">"a kind of board director"</small></td><td class="a">
+        • Oversees <b>advice and execution</b> during a service change<br>
+        • <b>Primary duty:</b> keep the Service Manager well-informed (accountability, tracking metrics)<br>
+        • Ensures the service stays effective <b>after implementation</b><br>
+        • First to suggest improvements, based on <b>tracking metrics</b><br>
+        • Long-term planning and anticipating how technology and business evolve<br>
+        • Made up of tech experts, product experts, support personnel, and executive leadership</td></tr>
+      <tr><td>Service Sponsor<br><small class="muted">executive leadership in the Service Team</small></td><td class="a">
+        • Usually someone directly acquainted with the <b>business side</b><br>
+        • Sets the <b>budget</b> for services<br>
+        • <b>Qualifies associated risks</b><br>
+        • Sets <b>acceptable service levels</b></td></tr>
+      <tr><td>Service Manager + Service Team</td><td class="a">Spearhead the company's ITSM efforts together, so <b>regular meetings and consultations are a must</b>.</td></tr>
+    </table>
+    <div class="warn"><b>Common swap:</b> the <i>budget</i> is set by the Service Sponsor, not the Service Manager. Keeping the manager <i>informed</i> is the Service Team's job.</div>
+
+    <h3>Other "who does what" in Handout 05</h3>
+    <table>
+      <tr><th>Who</th><th>What they did / do</th></tr>
+      <tr><td>Google</td><td class="a">Outsources employees to the PH, from <b>IT experts to analytical consultants</b></td></tr>
+      <tr><td>Facebook</td><td class="a">Employs <b>software specialists</b>; subcontracts <b>customer support providers and content moderators</b></td></tr>
+      <tr><td>IBM</td><td class="a">Assigns <b>network management and infrastructure maintenance</b> to PH ITO companies</td></tr>
+      <tr><td>Hewlett-Packard (HP)</td><td class="a">Works with <b>offshoring</b> service providers for customer support and IT services</td></tr>
+      <tr><td>Accenture</td><td class="a">Mostly known for BPO, but also does consulting: <b>cloud strategy and design</b> (to maximize cloud investment) and <b>intelligent operating models</b> built for agility, resiliency, and growth</td></tr>
+      <tr><td>Philippine government</td><td class="a"><b>Special Economic Zone Act</b>: supports establishing ecozones and ICT hubs</td></tr>
+      <tr><td>DICT</td><td class="a"><b>"Digital Cities" program</b>: helps areas outside Metro Manila become digital cities</td></tr>
+      <tr><td>IBPAP</td><td class="a">IT and Business Process Association of the Philippines: the body that estimated the IT-BPO market's earnings and workforce</td></tr>
+      <tr><td>Statista</td><td class="a">Source of the market data. Covers B2G, B2B, and B2C; based on tech spending on products, consulting, and outsourcing; uses current exchange rates; updated twice a year</td></tr>
+    </table>
+  </section>
+
+  <!-- 4. EXAMPLES -->
+  <section id="examples">
+    <h2>4 · Examples → concepts</h2>
+    <p class="lead">The exam gives a case and asks what it illustrates.</p>
+    <table>
+      <tr><th>Example / case</th><th>Illustrates</th></tr>
+      <tr><td>Shopee leads Southeast Asia's top brands for customer experience; best optimized across all online and offline touchpoints</td><td class="a">Service culture → influence on <b>how an organization is seen</b></td></tr>
+      <tr><td>Scam hubs exposé by Sen. Risa Hontiveros: foreigners duped into scamming; an Indonesian applied for a digital marketing ad on Facebook</td><td class="a">Service culture → influence on <b>operation's effectiveness</b> (culture vs reality)</td></tr>
+      <tr><td>An organization preaches "do right by customers" but only cares about sales targets</td><td class="a"><b>Operation's effectiveness</b>: an inconsistency between the imposed culture and reality</td></tr>
+      <tr><td>Lazada PH earns Great Place to Work Certification (Fortune's 100 Best); employees trust leaders, are proud of their jobs, happy with colleagues</td><td class="a">Service culture → influence on <b>how employees feel about their jobs</b></td></tr>
+      <tr><td>IBM PH shifts to work-from-home during COVID-19, using cloud and AI while upskilling employees</td><td class="a">Service culture → influence on <b>how the operation learns and adapts</b></td></tr>
+      <tr><td>Finisar: IT provides enough server space for the customer support team</td><td class="a">A <b>supported</b> service</td></tr>
+      <tr><td>Financial report from several databases built into Oracle</td><td class="a"><b>Delivered</b> service → product for an <b>internal customer</b></td></tr>
+      <tr><td>Customizable web page design palette anyone can use</td><td class="a"><b>Delivered</b> service → product for an <b>external customer</b></td></tr>
+      <tr><td>Screen and battery repairs, hard drive and memory restoration, login/credential resets offered on social media</td><td class="a"><b>Other IT Services</b> (easier marketing than mall stalls, which call out to passersby)</td></tr>
+      <tr><td>CNCTC training for RedHat, Microsoft, TESDA, Azure, AWS certifications</td><td class="a"><b>Other IT Services</b> → IT education and training</td></tr>
+      <tr><td>Customer service in call centers</td><td class="a"><b>BPO</b> → front office</td></tr>
+      <tr><td>Human resources handled by a third party</td><td class="a"><b>BPO</b> → back office</td></tr>
+      <tr><td>A company hires an outside firm for its software developers or network management</td><td class="a"><b>IT Outsourcing</b></td></tr>
+      <tr><td>A firm helps a business align its technology strategy with its business strategy</td><td class="a"><b>IT Consulting and Implementation</b></td></tr>
+      <tr><td>Why companies worldwide adopt IT services</td><td class="a"><b>Automation</b> that eliminates monotonous tasks, plus changes in client demand (<b>tailored pricing, improved customer experience</b>)</td></tr>
+      <tr><td>What COVID-19 made companies realize</td><td class="a">The need for digital adoption: <b>remote work support, software support, data security</b></td></tr>
+      <tr><td>What will drive the global IT services market forward</td><td class="a"><b>Digital transformation, automated business processes, demand for cloud services, infrastructure upgrading</b></td></tr>
+      <tr><td>What a service culture ultimately allows, beyond how customers are treated</td><td class="a">Organizations can think of <b>how service can be improved</b></td></tr>
+    </table>
+  </section>
+
+  <!-- COUNTS -->
+  <section id="counts">
+    <h2>Counts to remember</h2>
+    <p class="lead">Not cash or years, so they can still show up as "how many…?" questions.</p>
+    <table>
+      <tr><th>How many…</th><th>Answer</th></tr>
+      <tr><td>IT service markets in the PH</td><td class="a"><b>4</b>: Consulting & Implementation, BPO, ITO, Other IT Services</td></tr>
+      <tr><td>Questions about the customer's expectations</td><td class="a"><b>3</b>: expected service and delivery, how it's used, how much it costs</td></tr>
+      <tr><td>Questions about the IT department's capability</td><td class="a"><b>2</b>: how it's supported, how it's delivered</td></tr>
+      <tr><td>External roles</td><td class="a"><b>3</b>: IT Service Consumers, Prospects, External Suppliers</td></tr>
+      <tr><td>Influences of service culture</td><td class="a"><b>4</b>: how seen, effectiveness, how employees feel, learn and adapt</td></tr>
+      <tr><td>Key global IT service players</td><td class="a"><b>5</b>: United States, United Kingdom, Japan, China, Germany (in that rank order)</td></tr>
+      <tr><td>Types of people in a Service Team</td><td class="a"><b>4</b>: tech experts, product experts, support personnel, executive leadership</td></tr>
+    </table>
+  </section>
+
+  <!-- NUMBERS -->
+  <section id="numbers">
+    <h2>Number patterns (optional)</h2>
+    <p class="lead">Only if you have time. Learn the patterns, not the figures.</p>
+    <details>
+      <summary>Show patterns</summary>
+      <ul>
+        <li><b>IT Outsourcing is #1</b> in all five countries. <b>IT Consulting is last</b> in all five.</li>
+        <li><b>Other IT Services is #2 everywhere except China</b>, where BPO is #2.</li>
+        <li>Revenue ranking: <b>US → UK → Japan → China → Germany</b>.</li>
+        <li><b>China</b> grows fastest and <b>Japan</b> slowest, so China overtakes Japan later on.</li>
+        <li>The Philippines is ranked <b>1st in voice-related services</b> in IT-BPO.</li>
+        <li>Salaries: <b>Change Management</b> pays the most. <b>Demand Management</b> and <b>Request Fulfillment</b> pay the least (tied). Problem and Risk Management are tied just below the top.</li>
+      </ul>
+    </details>
+  </section>
+</main>
+
+<script>
+  const btn = document.getElementById("toggle");
+  btn.addEventListener("click", () => {
+    const on = document.body.classList.toggle("hide-answers");
+    btn.setAttribute("aria-pressed", on);
+    btn.textContent = on ? "Show answers" : "Hide answers";
+    document.querySelectorAll(".a.shown").forEach((el) => el.classList.remove("shown"));
+  });
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest(".a");
+    if (a && document.body.classList.contains("hide-answers")) a.classList.toggle("shown");
+  });
+</script>
+</body>
+</html>

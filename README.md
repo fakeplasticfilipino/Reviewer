@@ -20,6 +20,12 @@ handouts/                  original PDFs (local only, not uploaded; see .gitigno
 2. Create its question bank in `data/<term>/<subject>/` (same file name, `.js`).
 3. Add one entry to `data/catalog.js` (and a new term/subject block if it's new).
 
+## Reviewer notes
+
+Each subject can have a study-notes page (e.g. `data/pre-finals/it-service-management/reviewer.html`).
+Set `notes:` on the subject in `catalog.js` and the start screen links to it.
+Wrap answers in `class="a"` so the page's "Hide answers" self-test mode can blur them.
+
 Question format:
 
 ```js
